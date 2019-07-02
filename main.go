@@ -66,6 +66,7 @@ func main() {
 	//thực thi app
 	err := app.Run(os.Args)
 	if err != nil {
+		//thoát app
 		log.Fatal(err)
 	}
 }
